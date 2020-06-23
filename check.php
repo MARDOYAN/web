@@ -25,7 +25,7 @@
 	$headers ="From: $email\r\nReply-to: $email\r\nContent-type: text/html;chardet=utf-8\r\n";
 
 
-	mail('admin@itproger.com', '$subject', '$message', '$headers')
+	mail('mardoyan02@inbox.ru', '$subject', '$message', '$headers');
 
 	header('Lacation: /about.php');
 
